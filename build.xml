@@ -14,7 +14,7 @@
         <javac srcdir="src" debug="true" destdir="build/classes">
             <classpath refid="compile.classpath"/>
         </javac>
-    </tar>
+    </target>
     <target name="checkstyle">
         <checkstyle config="sun_checks.xml" failOnViolation="false"> 
             <fileset dir="src/example" includes="**/*.java"/>
